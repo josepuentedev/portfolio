@@ -1,0 +1,321 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css");
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/montserrat/v18/JTURjIg1_i6t8kCHKm45_ZpC7g4.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/montserrat/v18/JTURjIg1_i6t8kCHKm45_bZF7g4.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/montserrat/v18/JTURjIg1_i6t8kCHKm45_dJE7g4.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/materialicons/v97/flUhRq6tzZclQEJ-Vdg-IuiaDsNZ.ttf) format('truetype');
+}
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+}
+.profile {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  border-radius: 0.875rem;
+}
+.profile img {
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
+.profile .row {
+  margin: 0;
+}
+.profile .title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 29px;
+  margin: 0 0 6px;
+  color: #4aecc7;
+}
+.profile .subtitle {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 22px;
+  margin: 0 0 18px;
+  color: #828282;
+}
+.profile .info-contact {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 22px;
+  margin: 0 0 6px;
+  color: #4aecc7;
+  word-wrap: break-word;
+}
+.profile .info-contact:last-child {
+  margin-bottom: 18px;
+}
+.profile .about {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 22px;
+  color: #828282;
+  margin: 0 0 18px;
+}
+.skills {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  border-radius: 0.875rem;
+}
+.skills .title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 22px;
+  line-height: 22px;
+  margin: 0 0 10px;
+  color: #4aecc7;
+}
+.skills .row {
+  margin: 0;
+}
+.skills .skill {
+  padding: 0;
+}
+.academic {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  border-radius: 0.875rem;
+}
+.academic .title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 22px;
+  line-height: 22px;
+  margin: 0 0 10px;
+  color: #4aecc7;
+}
+.academic .row {
+  margin: 0;
+}
+.academic .item {
+  padding: 1rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  max-height: 330px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.academic .worked-time {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 17px;
+  margin: 0 0 12px;
+}
+.academic .job {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 19.5px;
+  margin: 0 0 19px;
+}
+.academic .description {
+  text-overflow: ellipsis;
+}
+.filter {
+  margin-top: 2rem;
+  padding: 1.5rem 1.5rem 1rem;
+  border-radius: 0.875rem;
+}
+.filter .title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 22px;
+  line-height: 22px;
+  margin: 0 0 16px;
+  color: #4aecc7;
+}
+.filter .tech-button {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #4F4F4F;
+  border: 1px solid #4F4F4F;
+  border-radius: 12px;
+  padding: 8px 22px;
+  background: transparent;
+  margin: 0 16px 12px 0;
+  cursor: pointer;
+}
+.filter .selected {
+  background: #2F80ED;
+  border: 1px solid #2F80ED;
+  color: #FFFFFF;
+}
+.projects .row {
+  margin: 0;
+}
+.projects .project {
+  margin: 0 0 16px 0;
+  padding: 1.5rem;
+  border-radius: 12px;
+}
+.projects .project img {
+  border-radius: 12px;
+}
+.projects .project .techs span {
+  margin: 16px 12px 22px 0;
+  display: inline-block;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 19.5px;
+  color: #4f4f4f;
+}
+.projects .project .title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 29.25px;
+  margin: 0 0 18px;
+  color: #333333;
+}
+.projects .project .description {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 19.5px;
+  color: #828282;
+  margin: 0 0 40px 0;
+}
+.projects .project .demo,
+.projects .project .code {
+  display: inline-block;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 18px;
+  width: 100%;
+  margin: 0 auto;
+  line-height: 44px;
+  border-radius: 12px;
+}
+.projects .project .demo {
+  background: #2F80ED;
+  color: #FFFFFF;
+  height: 44px;
+}
+.projects .project .code {
+  background: transparent;
+  color: #2F80ED;
+  height: 44px;
+  border: 1px solid #2F80ED;
+}
+.experience {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  border-radius: 0.875rem;
+}
+.experience .title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 22px;
+  line-height: 22px;
+  margin: 0 0 10px;
+  color: #4aecc7;
+}
+.experience .row {
+  margin: 0;
+}
+.experience .item {
+  padding: 1rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  max-height: 330px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.experience .worked-time {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 17px;
+  margin: 0 0 12px;
+}
+.experience .job {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 19.5px;
+  margin: 0 0 19px;
+}
+.experience .description {
+  text-overflow: ellipsis;
+}
+.footer {
+  margin-top: 2rem;
+  padding: 1.75rem;
+  margin-bottom: 0;
+  border-top-left-radius: 0.875rem;
+  border-top-right-radius: 0.875rem;
+}
+.footer p {
+  margin: 0;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 17px;
+}
+.footer p a {
+  font-weight: 700;
+  -webkit-transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.3s;
+}
+.footer p a:hover {
+  color: #0E76A8;
+}
